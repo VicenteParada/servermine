@@ -12,6 +12,7 @@ Debian 12.5 Bookworm
 Tailscale capa gratuita y probablemente Playit.gg, pero como se juega en LAN no lo estoy usando jaja
 
 =====BUILD SOBRE DEBIAN=====
+
 Ejecuta estos comandos en orden para levantar el servidor desde cero:
 
 1.-Instalación
