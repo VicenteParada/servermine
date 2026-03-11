@@ -32,7 +32,7 @@ Ejecuta estos comandos en orden para levantar el servidor desde cero:
     sudo docker logs -f mc-purpur-server
 
 5.-Configuración de Pre-generación (Chunky):
-Chunky es un plugin que pre-carga el mundo
+   Chunky es un plugin que pre-carga el mundo para evitar lag
 
   # Centrar en el punto de aparición
     sudo docker exec -i mc-purpur-server mc-send-command "chunky spawn"
@@ -42,4 +42,10 @@ Chunky es un plugin que pre-carga el mundo
 
   # Iniciar proceso
     sudo docker exec -i mc-purpur-server mc-send-command "chunky start"
+
+
+6.-Respaldos
+   La carpeta "data" es el mundo, plugins, configuraciones y basicamente "tu mundo" asi que esa carpeta es lo que hay que comprimir, el script "backup-server.sh" pausa la escritura en disco para que la copia no tenga corrupciones si el server esta encendido ("hot backups"), pero de todas maneras es recomendable hacer los respaldos en frio
+
+
 
