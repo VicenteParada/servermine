@@ -11,7 +11,7 @@ Fanless i3-5005u, 8gb de ram, 500gb de Disco encendido 24/7
 Debian 12.5 Bookworm
 Tailscale capa gratuita y probablemente Playit.gg, pero como se juega en LAN no lo estoy usando jaja
 
-# =====BUILD SOBRE DEBIAN=====
+# =====BUILD SOBRE DEBIAN 12.5=====
 
 Ejecuta estos comandos en orden para levantar el servidor desde cero:
 
