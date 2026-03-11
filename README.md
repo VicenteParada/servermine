@@ -35,14 +35,14 @@ Ejecuta estos comandos en orden para levantar el servidor desde cero:
 5.-Configuración de Pre-generación (Chunky):
    Chunky es un plugin que pre-carga el mundo para evitar lag
 
-  # Centrar en el punto de aparición
-    sudo docker exec -i mc-purpur-server mc-send-command "chunky spawn"
+   Centrar en el punto de aparición
+       sudo docker exec -i mc-purpur-server mc-send-command "chunky spawn"
+    
+   Definir radio de 5000 bloques
+       sudo docker exec -i mc-purpur-server mc-send-command "chunky radius 5000"
 
-  # Definir radio de 5000 bloques
-    sudo docker exec -i mc-purpur-server mc-send-command "chunky radius 5000"
-
-  # Iniciar proceso
-    sudo docker exec -i mc-purpur-server mc-send-command "chunky start"
+   Iniciar proceso
+       sudo docker exec -i mc-purpur-server mc-send-command "chunky start"
 
 
 6.-Respaldos
