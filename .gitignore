@@ -1,0 +1,5 @@
+cat <<EOF > .gitignore
+data/
+*.log
+.DS_Store
+EOF

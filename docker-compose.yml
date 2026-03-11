@@ -1,0 +1,21 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server
+    container_name: mc-purpur-server
+    network_mode: "host"
+    tty: true
+    stdin_open: true
+    environment:
+      EULA: "TRUE"
+      TYPE: "PURPUR"
+      VERSION: "1.20.1"
+      MEMORY: "6G"
+      USE_AIKAS_FLAGS: "TRUE"
+      OVERRIDE_SERVER_PROPERTIES: "TRUE"
+      VIEW_DISTANCE: "6"
+      SIMULATION_DISTANCE: "4"
+      MAX_PLAYERS: "20"
+      ONLINE_MODE: "FALSE"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
